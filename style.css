@@ -73,15 +73,6 @@ body {
     background: #e7e7e7;
 }
 
-.bg {
-    width: 100%;
-    height: inherit;
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .title h1 {
     font-weight: 600;
     margin-top: 5px;
@@ -89,6 +80,10 @@ body {
     letter-spacing: 1px;
     color: #fff;
     /* text-shadow: 1px 1px 1px rgb(87 87 94); */
+}
+
+.title a {
+    text-decoration: none;
 }
 
 ul.menu {
@@ -124,6 +119,7 @@ ul.menu li a:hover {
 .containercontent-home h2 {
     font-weight: bolder;
     text-transform: uppercase;
+    letter-spacing: 7px;
     font-size: 26px;
     margin-bottom: 20px;
     /* text-shadow: 1px 1px 2px rgb(87 87 94); */
@@ -136,6 +132,10 @@ ul.menu li a:hover {
 
 .containercontent-home .buttom-home {
     margin-top: 25px;
+}
+
+.button-read {
+    margin-right: 10px;
 }
 
 .services {
@@ -254,4 +254,56 @@ h4 {
 
 .footter {
     height: 150px;
+}
+
+.footter-content p1,
+p2 {
+    margin-right: 5px;
+}
+
+.footter-content p2 {
+    font-weight: 600;
+    color: #4e4e4e
+}
+
+.footter-content p1,
+p3 {
+    font-weight: 400;
+    color: rgb(183 169 169);
+}
+
+@media screen and (max-width:480px) {
+    /* .containercontent-home {
+        top: 130px;
+    } */
+    .carousel-item img {
+        height: 100vh;
+        size: auto;
+    }
+    .header-content ul {
+        display: none;
+    }
+    .containercontent-home h2 {
+        letter-spacing: 1px;
+    }
+    .button-read button {
+        display: none;
+    }
+    .carousel-inner {
+        height: 100vh;
+    }
+    .bgg {
+        height: auto;
+    }
+    .timer {
+        height: auto;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    .timer-content {
+        margin-bottom: 40px;
+    }
+    .nav-link {
+        padding: .5rem 9px !important;
+    }
 }
