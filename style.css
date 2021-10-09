@@ -273,9 +273,9 @@ p3 {
 }
 
 @media screen and (max-width:480px) {
-    /* .containercontent-home {
+    .containercontent-home {
         top: 130px;
-    } */
+    }
     .carousel-item img {
         height: 100vh;
         size: auto;
@@ -290,7 +290,7 @@ p3 {
         display: none;
     }
     .carousel-inner {
-        height: 100vh;
+        height: 50vh;
     }
     .bgg {
         height: auto;
